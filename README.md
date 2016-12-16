@@ -12,14 +12,14 @@ gem install gabuzomeu
 or in the ``Gemfile``
 
 ```ruby
-gem 'gabuzomeu'
+gem "gabuzomeu"
 ```
 
 
 ## Usage in Ruby
 
 ```ruby
-require gabuzomeu'
+require "gabuzomeu"
 
 10.to_s(:gabuzomeu) # "zo zo"
 ```
