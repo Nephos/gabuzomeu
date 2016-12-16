@@ -1,0 +1,45 @@
+v0.2.3
+    * Fix bug on Rfc1123::Public
+
+v0.2.2.2
+    * Update deps / license
+
+v0.2.2
+  * Fix Rfc1123 regexp bug
+
+v0.2.1
+  * Add certificates to the .gem archites too
+
+v0.2.0
+  * Domain Name handled (Rfc1123)
+
+v0.1.6
+  * Break compatibility (100%)
+  * Improve architecture
+    * Rfc5322 designed as it
+    * Rfc5322 and Rfc5322::Public are now Classes (instead of modules)
+    * Core is now an Abstract, completed by adding the REGEXP constant in it's
+      children
+  * Update unitary tests
+  * Add some documentation
+
+v0.1.5
+  * Split into files each feature (core, public, f/string)
+
+v0.1.4
+  * Add public features (to check if the email is valid on the internet)
+
+v0.1.3
+  * Rename the gem to be standard compliant
+
+v0.1.2
+  * Add documentation
+
+v0.1.1
+  * Fix readme and changelog
+
+v0.1
+	* Initialize git
+  * Create regexp and basic helpers
+  * Gemfile and dependancies
+  * Create unitary test (cover 100%)
