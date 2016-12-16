@@ -2,7 +2,7 @@ Gem::Specification.new do |s|
   s.name        = 'gabuzomeu'
   s.version     = File.read("version")
   s.date        = Time.now.getgm.to_s.split.first
-  # s.summary     = File.read("CHANGELOG").match(/^v[^\n]+\n((\t[^\n]+\n)+)/m)[1].split("\t").join
+  s.summary     = "Gabuzomeu base counter, from shadok"
   s.description = 'Shadok counter'
   s.authors     = ['Nephos (poulet_a)']
   s.email       = ['arthur.poulet@mailoo.org']
